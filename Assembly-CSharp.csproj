@@ -56,157 +56,157 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\Components\FxaaComponent.cs" />
-    <Compile Include="Assets\Assets\Klak\Math\Perlin.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
-    <Compile Include="Assets\LASP\Test\LissajousRenderer.cs" />
-    <Compile Include="Assets\Assets\Skinner\SkinnerTrailTemplate.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
+    <Compile Include="Assets\Skinner\Klak\Math\Perlin.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
+    <Compile Include="Assets\Skinner\Skinner\SkinnerTrailTemplate.cs" />
     <Compile Include="Assets\Tunnel\Kvant\Tunnel\Scripts\BulkMesh.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
-    <Compile Include="Assets\LASP\Test\WaveformRenderer.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\Components\VignetteComponent.cs" />
-    <Compile Include="Assets\Assets\Klak\Motion\BrownianMotion.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\Models\FogModel.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\Components\TaaComponent.cs" />
-    <Compile Include="Assets\Assets\Skinner\Internal\CullingStateController.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
-    <Compile Include="Assets\Assets\Skinner\SkinnerParticle.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\Models\VignetteModel.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\Models\GrainModel.cs" />
-    <Compile Include="Assets\Assets\Skinner\SkinnerSource.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
+    <Compile Include="Assets\Skinner\Skinner\Internal\CullingStateController.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
+    <Compile Include="Assets\Skinner\Skinner\SkinnerSource.cs" />
     <Compile Include="Assets\Tunnel\Kvant\Tunnel\TunnelScroller.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\PostProcessingModel.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\PostProcessingProfile.cs" />
-    <Compile Include="Assets\Assets\Skinner\Internal\SkinnerInternals.cs" />
-    <Compile Include="Assets\Assets\Klak\Math\Tween.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\Components\GrainComponent.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\PostProcessingContext.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\PostProcessingProfile.cs" />
+    <Compile Include="Assets\Skinner\Skinner\Internal\SkinnerInternals.cs" />
+    <Compile Include="Assets\Skinner\Klak\Math\Tween.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\PostProcessingContext.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
     <Compile Include="Assets\Tunnel\Reaktion\Utility\ConstantMotion.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\Models\UserLutModel.cs" />
-    <Compile Include="Assets\Assets\Skinner\SkinnerModel.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\Components\BloomComponent.cs" />
-    <Compile Include="Assets\Assets\Skinner\SkinnerGlitch.cs" />
-    <Compile Include="Assets\Assets\Skinner\SkinnerParticleTemplate.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
-    <Compile Include="Assets\Assets\Skinner\SkinnerTrail.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
+    <Compile Include="Assets\Skinner\Skinner\SkinnerModel.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\Components\BloomComponent.cs" />
+    <Compile Include="Assets\Tunnel\Kvant\Tunnel\Tunnel.cs" />
+    <Compile Include="Assets\Skinner\Klak\Motion\ConstantMotion.cs" />
+    <Compile Include="Assets\Skinner\Klak\Math\Interpolator.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\Components\DitheringComponent.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\PostProcessingComponent.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
+    <Compile Include="Assets\Skinner\Klak\Math\NoiseGenerator.cs" />
+    <Compile Include="Assets\Skinner\Skinner\SkinnerDebug.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\Models\BloomModel.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
+    <Compile Include="Assets\Skinner\Klak\Motion\SmoothFollow.cs" />
+    <Compile Include="Assets\Tunnel\Reaktion\Utility\JitterMotion.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\Components\FxaaComponent.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
+    <Compile Include="Assets\LASP\Test\LissajousRenderer.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
+    <Compile Include="Assets\LASP\Test\WaveformRenderer.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\Components\VignetteComponent.cs" />
+    <Compile Include="Assets\Skinner\Klak\Motion\BrownianMotion.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\Models\FogModel.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\Components\TaaComponent.cs" />
+    <Compile Include="Assets\Skinner\Skinner\SkinnerParticle.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\Models\VignetteModel.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\Models\GrainModel.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\PostProcessingModel.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\Components\GrainComponent.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\Models\UserLutModel.cs" />
+    <Compile Include="Assets\Skinner\Skinner\SkinnerGlitch.cs" />
+    <Compile Include="Assets\Skinner\Skinner\SkinnerParticleTemplate.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
+    <Compile Include="Assets\Skinner\Skinner\SkinnerTrail.cs" />
     <Compile Include="Assets\LASP\Test\DeviceSelector.cs" />
     <Compile Include="Assets\LASP\Test\DeviceList.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\Components\UserLutComponent.cs" />
-    <Compile Include="Assets\Tunnel\Kvant\Tunnel\Tunnel.cs" />
-    <Compile Include="Assets\Assets\Klak\Motion\ConstantMotion.cs" />
-    <Compile Include="Assets\Assets\Klak\Math\Interpolator.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\Components\UserLutComponent.cs" />
     <Compile Include="Assets\Tunnel\Kvant\Tunnel\TunnelNoiseScroller.cs" />
-    <Compile Include="Assets\Assets\Klak\Math\XXHash.cs" />
-    <Compile Include="Assets\Assets\Klak\Math\BasicMath.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\Components\DitheringComponent.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\PostProcessingComponent.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
-    <Compile Include="Assets\Assets\Klak\Math\NoiseGenerator.cs" />
+    <Compile Include="Assets\Skinner\Klak\Math\XXHash.cs" />
+    <Compile Include="Assets\Skinner\Klak\Math\BasicMath.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
     <Compile Include="Assets\LASP\Test\SpectrumGraph.cs" />
-    <Compile Include="Assets\Assets\Skinner\SkinnerDebug.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\Components\FogComponent.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\Models\BloomModel.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
-    <Compile Include="Assets\Assets\Klak\Motion\SmoothFollow.cs" />
-    <Compile Include="Assets\Assets\Skinner\Internal\SkinnerGlitchTemplate.cs" />
-    <Compile Include="Assets\Tunnel\Reaktion\Utility\JitterMotion.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Runtime\Models\DitheringModel.cs" />
-    <Compile Include="Assets\Assets\Klak\Extension\VectorMathExtension.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\Components\FogComponent.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
+    <Compile Include="Assets\Skinner\Skinner\Internal\SkinnerGlitchTemplate.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Runtime\Models\DitheringModel.cs" />
+    <Compile Include="Assets\Skinner\Klak\Extension\VectorMathExtension.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Assets\Skinner\Shader\TrailKernels.cginc" />
-    <None Include="Assets\Assets\CMUMocap\Acknowledgement.txt" />
+    <None Include="Assets\Skinner\Skinner\Shader\TrailKernels.cginc" />
+    <None Include="Assets\Skinner\CMUMocap\Acknowledgement.txt" />
     <None Include="Assets\Tunnel\Kvant\Tunnel\Shaders\ClassicNoise2D.cginc" />
-    <None Include="Assets\Assets\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
-    <None Include="Assets\Assets\PostProcessing\Resources\Shaders\GrainGen.shader" />
-    <None Include="Assets\Assets\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
-    <None Include="Assets\Assets\PostProcessing\Resources\Shaders\FXAA3.cginc" />
-    <None Include="Assets\Assets\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
-    <None Include="Assets\Assets\Skinner\Shader\ReplacementNormal.shader" />
-    <None Include="Assets\Assets\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
+    <None Include="Assets\Skinner\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
+    <None Include="Assets\Skinner\PostProcessing\Resources\Shaders\GrainGen.shader" />
+    <None Include="Assets\Skinner\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
+    <None Include="Assets\Skinner\PostProcessing\Resources\Shaders\FXAA3.cginc" />
+    <None Include="Assets\Skinner\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
+    <None Include="Assets\Skinner\Skinner\Shader\ReplacementNormal.shader" />
+    <None Include="Assets\Skinner\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
     <None Include="Assets\LASP\Test\SpectrumColor.shader" />
-    <None Include="Assets\Assets\Skinner\Shader\ParticleMotion.cginc" />
+    <None Include="Assets\Skinner\Skinner\Shader\ParticleMotion.cginc" />
     <None Include="Assets\Tunnel\Kvant\Tunnel\Shaders\Surface.shader" />
-    <None Include="Assets\Assets\Skinner\Shader\Debug.cginc" />
-    <None Include="Assets\Assets\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
-    <None Include="Assets\Assets\Skinner\Shader\ParticleKernels.cginc" />
-    <None Include="Assets\Assets\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
-    <None Include="Assets\Assets\PostProcessing\Resources\Shaders\LutGen.shader" />
+    <None Include="Assets\Skinner\Skinner\Shader\Debug.cginc" />
+    <None Include="Assets\Skinner\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
+    <None Include="Assets\Skinner\Skinner\Shader\ParticleKernels.cginc" />
+    <None Include="Assets\Skinner\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
+    <None Include="Assets\Skinner\PostProcessing\Resources\Shaders\LutGen.shader" />
     <None Include="Assets\Tunnel\Kvant\Tunnel\Shaders\Line.shader" />
-    <None Include="Assets\Assets\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
-    <None Include="Assets\Assets\Skinner\Shader\GlitchKernels.shader" />
-    <None Include="Assets\Assets\Test\Dummy.shader" />
-    <None Include="Assets\Assets\Skinner\Shader\GlitchKernels.cginc" />
-    <None Include="Assets\Assets\Skinner\Shader\TrailSurface.shader" />
-    <None Include="Assets\Assets\PostProcessing\Resources\Shaders\TAA.cginc" />
-    <None Include="Assets\Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
-    <None Include="Assets\Assets\Skinner\Shader\GlitchSurface.cginc" />
-    <None Include="Assets\Assets\Skinner\Shader\ParticleKernels.shader" />
-    <None Include="Assets\Assets\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
-    <None Include="Assets\Assets\Skinner\Shader\ReplacementPosition.shader" />
-    <None Include="Assets\Assets\Skinner\Shader\Common.cginc" />
-    <None Include="Assets\Assets\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
-    <None Include="Assets\Assets\Skinner\Shader\Replacement.cginc" />
-    <None Include="Assets\Assets\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
-    <None Include="Assets\Assets\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
-    <None Include="Assets\Assets\Skinner\Shader\Replacement.shader" />
-    <None Include="Assets\Assets\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
-    <None Include="Assets\Assets\PostProcessing\Resources\Shaders\ACES.cginc" />
-    <None Include="Assets\Assets\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
-    <None Include="Assets\Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
+    <None Include="Assets\Skinner\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
+    <None Include="Assets\Skinner\Skinner\Shader\GlitchKernels.shader" />
+    <None Include="Assets\Skinner\Test\Dummy.shader" />
+    <None Include="Assets\Skinner\Skinner\Shader\GlitchKernels.cginc" />
+    <None Include="Assets\Skinner\Skinner\Shader\TrailSurface.shader" />
+    <None Include="Assets\Skinner\PostProcessing\Resources\Shaders\TAA.cginc" />
+    <None Include="Assets\Skinner\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
+    <None Include="Assets\Skinner\Skinner\Shader\GlitchSurface.cginc" />
+    <None Include="Assets\Skinner\Skinner\Shader\ParticleKernels.shader" />
+    <None Include="Assets\Skinner\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
+    <None Include="Assets\Skinner\Skinner\Shader\ReplacementPosition.shader" />
+    <None Include="Assets\Skinner\Skinner\Shader\Common.cginc" />
+    <None Include="Assets\Skinner\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
+    <None Include="Assets\Skinner\Skinner\Shader\Replacement.cginc" />
+    <None Include="Assets\Skinner\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
+    <None Include="Assets\Skinner\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
+    <None Include="Assets\Skinner\Skinner\Shader\Replacement.shader" />
+    <None Include="Assets\Skinner\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
+    <None Include="Assets\Skinner\PostProcessing\Resources\Shaders\ACES.cginc" />
+    <None Include="Assets\Skinner\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
+    <None Include="Assets\Skinner\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
     <None Include="Assets\Tunnel\Kvant\Tunnel\Shaders\Kernels.shader" />
-    <None Include="Assets\Assets\PostProcessing\Resources\Shaders\FXAA.shader" />
-    <None Include="Assets\Assets\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
-    <None Include="Assets\Assets\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
-    <None Include="Assets\Assets\Skinner\Shader\TrailMotion.cginc" />
-    <None Include="Assets\Assets\PostProcessing\Resources\Shaders\Fog.shader" />
-    <None Include="Assets\Assets\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
-    <None Include="Assets\Assets\PostProcessing\Resources\Shaders\MotionBlur.shader" />
-    <None Include="Assets\Assets\Skinner\Shader\TrailKernels.shader" />
-    <None Include="Assets\Assets\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
-    <None Include="Assets\Assets\Skinner\Shader\Debug.shader" />
-    <None Include="Assets\Assets\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
-    <None Include="Assets\Assets\Skinner\Shader\ParticleSurface.cginc" />
-    <None Include="Assets\Assets\PostProcessing\Editor Resources\UI\Trackball.shader" />
-    <None Include="Assets\Assets\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
-    <None Include="Assets\Assets\PostProcessing\Resources\Shaders\Common.cginc" />
-    <None Include="Assets\Assets\Skinner\Shader\ParticleSurfaceStandard.shader" />
-    <None Include="Assets\Assets\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
-    <None Include="Assets\Assets\PostProcessing\Resources\Shaders\Bloom.shader" />
-    <None Include="Assets\Assets\PostProcessing\Resources\Shaders\Uber.shader" />
-    <None Include="Assets\Assets\PostProcessing\Resources\Shaders\DepthOfField.shader" />
-    <None Include="Assets\Assets\PostProcessing\Resources\Shaders\TAA.shader" />
-    <None Include="Assets\Assets\Skinner\Shader\GlitchSurface.shader" />
-    <None Include="Assets\Assets\PostProcessing\Resources\Shaders\Blit.shader" />
-    <None Include="Assets\Assets\PostProcessing\Resources\Shaders\Bloom.cginc" />
-    <None Include="Assets\Assets\Skinner\Shader\SourcePlaceholder.shader" />
+    <None Include="Assets\Skinner\PostProcessing\Resources\Shaders\FXAA.shader" />
+    <None Include="Assets\Skinner\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
+    <None Include="Assets\Skinner\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
+    <None Include="Assets\Skinner\Skinner\Shader\TrailMotion.cginc" />
+    <None Include="Assets\Skinner\PostProcessing\Resources\Shaders\Fog.shader" />
+    <None Include="Assets\Skinner\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
+    <None Include="Assets\Skinner\PostProcessing\Resources\Shaders\MotionBlur.shader" />
+    <None Include="Assets\Skinner\Skinner\Shader\TrailKernels.shader" />
+    <None Include="Assets\Skinner\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
+    <None Include="Assets\Skinner\Skinner\Shader\Debug.shader" />
+    <None Include="Assets\Skinner\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
+    <None Include="Assets\Skinner\Skinner\Shader\ParticleSurface.cginc" />
+    <None Include="Assets\Skinner\PostProcessing\Editor Resources\UI\Trackball.shader" />
+    <None Include="Assets\Skinner\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
+    <None Include="Assets\Skinner\PostProcessing\Resources\Shaders\Common.cginc" />
+    <None Include="Assets\Skinner\Skinner\Shader\ParticleSurfaceStandard.shader" />
+    <None Include="Assets\Skinner\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
+    <None Include="Assets\Skinner\PostProcessing\Resources\Shaders\Bloom.shader" />
+    <None Include="Assets\Skinner\PostProcessing\Resources\Shaders\Uber.shader" />
+    <None Include="Assets\Skinner\PostProcessing\Resources\Shaders\DepthOfField.shader" />
+    <None Include="Assets\Skinner\PostProcessing\Resources\Shaders\TAA.shader" />
+    <None Include="Assets\Skinner\Skinner\Shader\GlitchSurface.shader" />
+    <None Include="Assets\Skinner\PostProcessing\Resources\Shaders\Blit.shader" />
+    <None Include="Assets\Skinner\PostProcessing\Resources\Shaders\Bloom.cginc" />
+    <None Include="Assets\Skinner\Skinner\Shader\SourcePlaceholder.shader" />
     <None Include="Assets\Tunnel\Kvant\Tunnel\Shaders\Debug.shader" />
-    <None Include="Assets\Assets\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
-    <None Include="Assets\Assets\Skinner\Shader\ParticleSurfaceTwoSided.shader" />
-    <None Include="Assets\Assets\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
-    <None Include="Assets\Assets\Skinner\Shader\TrailSurface.cginc" />
-    <None Include="Assets\Assets\Skinner\Shader\ReplacementTangent.shader" />
-    <None Include="Assets\Assets\Skinner\Shader\SimplexNoiseGrad3D.cginc" />
+    <None Include="Assets\Skinner\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
+    <None Include="Assets\Skinner\Skinner\Shader\ParticleSurfaceTwoSided.shader" />
+    <None Include="Assets\Skinner\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
+    <None Include="Assets\Skinner\Skinner\Shader\TrailSurface.cginc" />
+    <None Include="Assets\Skinner\Skinner\Shader\ReplacementTangent.shader" />
+    <None Include="Assets\Skinner\Skinner\Shader\SimplexNoiseGrad3D.cginc" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -806,13 +806,21 @@
       <Project>{5E9429B2-FED7-3A39-02B7-D8E9B9F22DA4}</Project>
       <Name>Lasp.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.VisualEffectGraph.Editor.csproj">
+      <Project>{5D422410-70BA-8E82-5270-82CA82695147}</Project>
+      <Name>Unity.VisualEffectGraph.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Recorder.Editor.csproj">
+      <Project>{1D0C9B5A-C310-53B0-D212-0D4C71324949}</Project>
+      <Name>Unity.Recorder.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
       <Project>{976B1D95-8EF8-1A28-2EC1-52FBED6E7BF1}</Project>
       <Name>Unity.VSCode.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Burst.csproj">
-      <Project>{F66EA543-1F8D-58DD-561F-DD7DC9F1B5B0}</Project>
-      <Name>Unity.Burst</Name>
+    <ProjectReference Include="Unity.Recorder.Base.csproj">
+      <Project>{A4139629-46B8-61BE-182C-4C643736E1BC}</Project>
+      <Name>Unity.Recorder.Base</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
       <Project>{CEB50B70-12FD-8582-C5CC-FBCE3D1CCB5C}</Project>
@@ -822,9 +830,9 @@
       <Project>{0A523FB0-0961-8DB1-C444-1CE62C7D0459}</Project>
       <Name>Unity.VisualStudio.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{EC9425E9-F964-001F-891D-AAAEA0EE04DF}</Project>
-      <Name>Unity.Timeline.Editor</Name>
+    <ProjectReference Include="Unity.VisualEffectGraph.Runtime.csproj">
+      <Project>{55D6E709-7FF6-01BF-7FA8-BEA592EEA56D}</Project>
+      <Name>Unity.VisualEffectGraph.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
       <Project>{D11FF735-E11B-9121-4586-18A87570C8D4}</Project>
@@ -834,6 +842,58 @@
       <Project>{A1BA7B7C-6837-5630-2F17-43874DFFFDF7}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Burst.Editor.csproj">
+      <Project>{ED44BF03-13FF-4069-4714-D9B5D8F23344}</Project>
+      <Name>Unity.Burst.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Searcher.Editor.csproj">
+      <Project>{EE2D1F53-530E-58C7-F83E-45DCC2EB7AFA}</Project>
+      <Name>Unity.Searcher.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
+      <Project>{EF4DC17E-7B7B-2059-883D-329B0E67D0FF}</Project>
+      <Name>Unity.RenderPipelines.Core.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{EA529C71-99D9-CFF6-4839-D3CEC20DF28E}</Project>
+      <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
+      <Project>{9ED083F7-3E02-8C23-AC99-7124829807F8}</Project>
+      <Name>Unity.PlasticSCM.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Rider.Editor.csproj">
+      <Project>{D458E781-FCA0-1ED9-C652-71F832416115}</Project>
+      <Name>Unity.Rider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj">
+      <Project>{CE8F6CB6-3AC9-D447-2CB9-326C6E5CF716}</Project>
+      <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{C9029C57-B73D-1951-46E6-52434035B614}</Project>
+      <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.csproj">
+      <Project>{63114B83-385F-A285-2575-E261584FC70B}</Project>
+      <Name>Unity.Mathematics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
+      <Project>{EA25B27E-E59E-8178-D82F-C0DC688F59BB}</Project>
+      <Name>Unity.ShaderGraph.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Burst.csproj">
+      <Project>{F66EA543-1F8D-58DD-561F-DD7DC9F1B5B0}</Project>
+      <Name>Unity.Burst</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.Editor.csproj">
+      <Project>{EC9425E9-F964-001F-891D-AAAEA0EE04DF}</Project>
+      <Name>Unity.Timeline.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj">
+      <Project>{1457D219-5AB1-6C01-07F9-CCDE3CD343DF}</Project>
+      <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.Editor.csproj">
       <Project>{DA5CD882-3A28-181C-F46A-BB2B12D37E6A}</Project>
       <Name>Unity.Mathematics.Editor</Name>
@@ -842,33 +902,17 @@
       <Project>{FF2EB5AA-24C7-B52F-8326-7176B28B45D9}</Project>
       <Name>Lasp.Runtime</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Burst.Editor.csproj">
-      <Project>{ED44BF03-13FF-4069-4714-D9B5D8F23344}</Project>
-      <Name>Unity.Burst.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="SoundIO.Runtime.csproj">
       <Project>{D9630D08-7FEF-66D4-33E2-3059BEF2970C}</Project>
       <Name>SoundIO.Runtime</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{EA529C71-99D9-CFF6-4839-D3CEC20DF28E}</Project>
-      <Name>UnityEditor.UI</Name>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj">
+      <Project>{00760833-6254-AC45-3144-CFB9D2DB1D7D}</Project>
+      <Name>Unity.RenderPipelines.Core.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{D458E781-FCA0-1ED9-C652-71F832416115}</Project>
-      <Name>Unity.Rider.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{C9029C57-B73D-1951-46E6-52434035B614}</Project>
-      <Name>UnityEngine.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
-      <Project>{9ED083F7-3E02-8C23-AC99-7124829807F8}</Project>
-      <Name>Unity.PlasticSCM.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Mathematics.csproj">
-      <Project>{63114B83-385F-A285-2575-E261584FC70B}</Project>
-      <Name>Unity.Mathematics</Name>
+    <ProjectReference Include="Unity.Recorder.csproj">
+      <Project>{505EB94F-357D-BF87-E197-D7C31975515B}</Project>
+      <Name>Unity.Recorder</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

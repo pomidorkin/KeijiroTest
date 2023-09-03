@@ -57,59 +57,59 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Tunnel\Editor\PackageTool.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Editor\PropertyDrawers\GetSetDrawer.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Editor\Models\DepthOfFieldModelEditor.cs" />
-    <Compile Include="Assets\Assets\Klak\Motion\Editor\ConstantMotionEditor.cs" />
-    <Compile Include="Assets\Assets\Skinner\Editor\SkinnerDebugEditor.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Editor\PropertyDrawers\MinDrawer.cs" />
-    <Compile Include="Assets\Assets\Skinner\Editor\SkinnerModelEditor.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Editor\Models\VignetteModelEditor.cs" />
-    <Compile Include="Assets\Assets\Skinner\Editor\SkinnerGlitchTemplateEditor.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Editor\Utils\CurveEditor.cs" />
-    <Compile Include="Assets\Assets\Skinner\Editor\SkinnerSourceEditor.cs" />
-    <Compile Include="Assets\Assets\Klak\Motion\Editor\SmoothFollowEditor.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Editor\Models\MotionBlurModelEditor.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Editor\Utils\FxStyles.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Editor\PostProcessingInspector.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Editor\Models\UserLutModelEditor.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Editor\Models\AntialiasingModelEditor.cs" />
-    <Compile Include="Assets\Assets\Klak\Motion\Editor\BrownianMotionEditor.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Editor\Utils\EditorGUIHelper.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Editor\Monitors\ParadeMonitor.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Editor\Models\DefaultPostFxModelEditor.cs" />
-    <Compile Include="Assets\Assets\Skinner\Editor\SkinnerTrailEditor.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Editor\Utils\EditorResources.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Editor\PostProcessingMonitor.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Editor\Models\BloomModelEditor.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Editor\Models\ColorGradingModelEditor.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Editor\PropertyDrawers\TrackballGroupDrawer.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Editor\Models\AmbientOcclusionModelEditor.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Editor\PropertyDrawers\GetSetDrawer.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Editor\Models\DepthOfFieldModelEditor.cs" />
+    <Compile Include="Assets\Skinner\Klak\Motion\Editor\ConstantMotionEditor.cs" />
+    <Compile Include="Assets\Skinner\Skinner\Editor\SkinnerDebugEditor.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Editor\PropertyDrawers\MinDrawer.cs" />
+    <Compile Include="Assets\Skinner\Skinner\Editor\SkinnerModelEditor.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Editor\Models\VignetteModelEditor.cs" />
+    <Compile Include="Assets\Skinner\Skinner\Editor\SkinnerGlitchTemplateEditor.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Editor\Utils\CurveEditor.cs" />
+    <Compile Include="Assets\Skinner\Skinner\Editor\SkinnerSourceEditor.cs" />
+    <Compile Include="Assets\Skinner\Klak\Motion\Editor\SmoothFollowEditor.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Editor\Models\MotionBlurModelEditor.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Editor\Utils\FxStyles.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Editor\PostProcessingInspector.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Editor\Models\UserLutModelEditor.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Editor\Models\AntialiasingModelEditor.cs" />
+    <Compile Include="Assets\Skinner\Klak\Motion\Editor\BrownianMotionEditor.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Editor\Utils\EditorGUIHelper.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Editor\Monitors\ParadeMonitor.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Editor\Models\DefaultPostFxModelEditor.cs" />
+    <Compile Include="Assets\Skinner\Skinner\Editor\SkinnerTrailEditor.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Editor\Utils\EditorResources.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Editor\PostProcessingMonitor.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Editor\Models\BloomModelEditor.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Editor\Models\ColorGradingModelEditor.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Editor\PropertyDrawers\TrackballGroupDrawer.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Editor\Models\AmbientOcclusionModelEditor.cs" />
     <Compile Include="Assets\Tunnel\Reaktion\Editor\Utility\JitterMotionEditor.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Editor\Monitors\HistogramMonitor.cs" />
-    <Compile Include="Assets\Assets\Skinner\Editor\SkinnerTrailTemplateEditor.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Editor\Monitors\HistogramMonitor.cs" />
+    <Compile Include="Assets\Skinner\Skinner\Editor\SkinnerTrailTemplateEditor.cs" />
     <Compile Include="Assets\Tunnel\Kvant\Tunnel\Editor\TunnelMaterialEditor.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Editor\PostProcessingFactory.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Editor\Models\ScreenSpaceReflectionModelEditor.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Editor\Models\BuiltinDebugViewsEditor.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Editor\Attributes\PostProcessingModelEditorAttribute.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Editor\PostProcessingFactory.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Editor\Models\ScreenSpaceReflectionModelEditor.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Editor\Models\BuiltinDebugViewsEditor.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Editor\Attributes\PostProcessingModelEditorAttribute.cs" />
     <Compile Include="Assets\Tunnel\Kvant\Tunnel\Editor\TunnelNoiseScrollerEditor.cs" />
-    <Compile Include="Assets\Assets\Skinner\Editor\SkinnerGlitchEditor.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Editor\PostProcessingModelEditor.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Editor\Models\GrainModelEditor.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Editor\PostProcessingBehaviourEditor.cs" />
+    <Compile Include="Assets\Skinner\Skinner\Editor\SkinnerGlitchEditor.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Editor\PostProcessingModelEditor.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Editor\Models\GrainModelEditor.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Editor\PostProcessingBehaviourEditor.cs" />
     <Compile Include="Assets\Tunnel\Kvant\Tunnel\Editor\TunnelEditor.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Editor\Models\EyeAdaptationModelEditor.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Editor\Models\FogModelEditor.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Editor\Monitors\WaveformMonitor.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Editor\Models\ChromaticAberrationEditor.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Editor\Models\DitheringModelEditor.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Editor\Models\EyeAdaptationModelEditor.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Editor\Models\FogModelEditor.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Editor\Monitors\WaveformMonitor.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Editor\Models\ChromaticAberrationEditor.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Editor\Models\DitheringModelEditor.cs" />
     <Compile Include="Assets\Tunnel\Reaktion\Editor\Utility\ConstantMotionEditor.cs" />
-    <Compile Include="Assets\Assets\Skinner\Editor\SkinnerParticleEditor.cs" />
+    <Compile Include="Assets\Skinner\Skinner\Editor\SkinnerParticleEditor.cs" />
     <Compile Include="Assets\Tunnel\Kvant\Tunnel\Editor\TunnelScrollerEditor.cs" />
-    <Compile Include="Assets\Assets\Klak\Math\Editor\InterpolatorConfigDrawer.cs" />
-    <Compile Include="Assets\Assets\PostProcessing\Editor\Monitors\VectorscopeMonitor.cs" />
-    <Compile Include="Assets\Assets\Skinner\Editor\SkinnerParticleTemplateEditor.cs" />
+    <Compile Include="Assets\Skinner\Klak\Math\Editor\InterpolatorConfigDrawer.cs" />
+    <Compile Include="Assets\Skinner\PostProcessing\Editor\Monitors\VectorscopeMonitor.cs" />
+    <Compile Include="Assets\Skinner\Skinner\Editor\SkinnerParticleTemplateEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -358,11 +358,11 @@
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.7\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="System.Buffers">
-      <HintPath>Library\PackageCache\org.nuget.system.buffers@4.4.0\System.Buffers.dll</HintPath>
-    </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.7\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>Library\PackageCache\org.nuget.system.buffers@4.4.0\System.Buffers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Unsafe">
       <HintPath>Library\PackageCache\com.unity.burst@1.4.4\Unity.Burst.Unsafe.dll</HintPath>
@@ -757,6 +757,10 @@
       <Project>{5E9429B2-FED7-3A39-02B7-D8E9B9F22DA4}</Project>
       <Name>Lasp.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Recorder.Editor.csproj">
+      <Project>{1D0C9B5A-C310-53B0-D212-0D4C71324949}</Project>
+      <Name>Unity.Recorder.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
       <Project>{976B1D95-8EF8-1A28-2EC1-52FBED6E7BF1}</Project>
       <Name>Unity.VSCode.Editor</Name>
@@ -764,6 +768,10 @@
     <ProjectReference Include="Unity.Burst.csproj">
       <Project>{F66EA543-1F8D-58DD-561F-DD7DC9F1B5B0}</Project>
       <Name>Unity.Burst</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Recorder.Base.csproj">
+      <Project>{A4139629-46B8-61BE-182C-4C643736E1BC}</Project>
+      <Name>Unity.Recorder.Base</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
       <Project>{CEB50B70-12FD-8582-C5CC-FBCE3D1CCB5C}</Project>
@@ -816,6 +824,10 @@
     <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
       <Project>{9ED083F7-3E02-8C23-AC99-7124829807F8}</Project>
       <Name>Unity.PlasticSCM.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Recorder.csproj">
+      <Project>{505EB94F-357D-BF87-E197-D7C31975515B}</Project>
+      <Name>Unity.Recorder</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.csproj">
       <Project>{63114B83-385F-A285-2575-E261584FC70B}</Project>
